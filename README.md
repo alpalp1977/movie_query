@@ -19,6 +19,7 @@ Node.js and npm has to be installed.
 ### Dependencies
 
 For installing project dependencies
+	
 	npm install
 
 ###### Express Framework
@@ -35,6 +36,7 @@ Asynchronous, non-blocking SQLite3 bindings for Node.js.
 
 ### Running the server
 To run the main server application:
+	
 	node main.js
 
 If the database file doesn't exist, the server program will read ratings.csv file and create the database. This might take a while.
