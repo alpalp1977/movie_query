@@ -52,9 +52,9 @@ will return JSON data containing ratings for movieid 25
 
 	/localhost:3000/movieId/filter?<date>
 
-<date>: 
-	* after?1.1.2017
-	* before?1.1.2017
-	* between?1.1.2017?1.1.2018
+##### <date> 
+* after?1.1.2017
+* before?1.1.2017
+* between?1.1.2017?1.1.2018
 	
 The server will return matching movie ratings as JSON data.
