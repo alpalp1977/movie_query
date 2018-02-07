@@ -1,19 +1,30 @@
 # movie_query
 =============
+
 movie_query is project for running a web API that enables users to query movie ratings by movie ids from movielens data.
+
 Movie ratings are sent in a JSON file.
+
 The API is also able to filter movie ratings by date.
 
 Setup
+
 =====
+
 git clone https://github.com/alpalp1977/movie_query.git
+
 Download movielens dataset, which has 26 million movie ratings (https://grouplens.org/datasets/movielens).
+
 Extract ratings.csv file into project folder.
+
 Node.js and npm has to be installed.
 
 Dependencies
+
 ============
+
 For installing project dependencies
+
 	npm install
 
 Express Framework: Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.
