@@ -44,13 +44,13 @@ If the database file doesn't exist, the server program will read ratings.csv fil
 ### Usage & API
 Following queries can be sent to server through web browser or cURL:
 
-/localhost:3000/movieId
+	/localhost:3000/movieId
 
 example: /localhost:3000/25
 
 will return JSON data containing ratings for movieid 25
 
-/localhost:3000/movieId/filter?<date>
+	/localhost:3000/movieId/filter?<date>
 
 <date>: 
 	* after?1.1.2017
