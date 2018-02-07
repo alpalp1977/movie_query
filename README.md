@@ -39,7 +39,7 @@ To run the main server application:
 	
 	node main.js
 
-If the database file doesn't exist, the server program will read ratings.csv file and create the database. This might take a while.
+If the database file doesn't exist, the application will read ratings.csv file and create the database. This might take a while.
 
 ### Usage & API
 Following queries can be sent to server through web browser or cURL:
